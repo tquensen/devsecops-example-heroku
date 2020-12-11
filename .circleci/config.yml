@@ -46,5 +46,5 @@ workflows:
       - deploy
       - sast
       - dast:
-        requires:
-          - deploy
+          requires:
+            - deploy
